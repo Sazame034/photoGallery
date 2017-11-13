@@ -7,13 +7,42 @@
   </head>
   <body>
     <!--BODY SECTION-->
-    <ul>
-      <li><a href="adventures.html">Adventures</a></li>
-      <li><a href="glamour.html">Glamour</a></li>
-      <li><a href="journal.html">Journals</a></li>
-      <li><a href="about.html">About</a></li>
-    </ul>
-    <h1>About: Sazame Estyl</h1>
-    <p>This page will talk about the player behind Sazame Estyl.</p>
+    <div class="navigation">
+      <!--NAVIGATION-->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="adventures.html">Adventures</a></li>
+          <li><a href="glamour.html">Glamour</a></li>
+          <li><a href="journal.html">Journals</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--START OF CONTENT-->
+    <div class="wrapper">
+      <div id="autobiography">
+        <h1>About: Sazame Estyl</h1>
+        <p>This page will talk about the player behind Sazame Estyl.</p>
+      </div>
+      <!--START OF CONTACT FORM-->
+      <div id="form">
+        <section>
+          <p>Want to contact us? Please fill out the form below!</p>
+          <form id="contact-us">
+            <label for="fname">First Name:<input type="text" id="fname"></label>
+            <label for="lname">Last Name:<input type="text" id="lname"></label>
+            <label for="email">Email:<input type="email" id="email"></label>
+            <label for="comment">Comments:<textarea></textarea></label>
+            <input type="submit" value="Send!">
+          </form>
+        </section>
+      </div>
+    </div><!--END OF WRAPPER-->
+    <!--FOOTER-->
+    <div class="footer">
+      <footer>
+        &copy; Hello World!
+      </footer>
+    </div>
   </body>
 </html>
