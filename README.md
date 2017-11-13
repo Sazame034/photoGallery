@@ -1,3 +1,5 @@
 Welcome to the Photo Gallery
 
-This site displays a variety of art works from our artists. Please enjoy the different artworks. 
+This is a gallery of different screenshots of me playing one of my favorite's MMORPG: Final Fantasy XIV.
+
+Most of these screenshots follow my main character Sazame Estyl as she journey's being the best adventurer.
