@@ -3,6 +3,11 @@
   <head>
     <!--HEAD SECTION-->
     <meta charset="UTF-8">
+    <!--LINKS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <!--SCRIPTS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <title>Sazame Estyl--Photo Gallery Adventure--About</title>
   </head>
   <body>
@@ -15,6 +20,7 @@
           <li><a href="adventures.html">Adventures</a></li>
           <li><a href="glamour.html">Glamour</a></li>
           <li><a href="journal.html">Journals</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
     </div>
@@ -29,11 +35,11 @@
         <section>
           <p>Want to contact us? Please fill out the form below!</p>
           <form id="contact-us">
-            <label for="fname">First Name:<input type="text" id="fname"></label>
-            <label for="lname">Last Name:<input type="text" id="lname"></label>
-            <label for="email">Email:<input type="email" id="email"></label>
-            <label for="comment">Comments:<textarea></textarea></label>
-            <input type="submit" value="Send!">
+            <label for="fname" class="input-lbl">First Name:</label><input type="text" id="fname" class="input" placeholder="First Name"><br>
+            <label for="lname" class="input-lbl">Last Name:</label><input type="text" id="lname" class="input" placeholder="Last Name"><br>
+            <label for="email" class="input-lbl">Email:</label><input type="email" id="email" class="input" placeholder="Email"><br>
+            <label for="comment" class="input-lbl">Comments:</label><textarea class="input-com"></textarea>
+            <input type="submit" class="btn" value="Send!">
           </form>
         </section>
       </div>
@@ -41,7 +47,7 @@
     <!--FOOTER-->
     <div class="footer">
       <footer>
-        &copy; Hello World!
+         <p>&copy;Hello World!</p>
       </footer>
     </div>
   </body>

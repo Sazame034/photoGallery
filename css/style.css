@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|News+Cycle|Raleway');
+/*GENERAL TAGS*/
+body {
+  background-color: #fefbe8;
+}
+h1, h2 {
+  font-family: "News Cycle", sans-serif;
+  color: 	#fefbe8;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  color: #2c2c2a;
+}
+a:link {
+  font-family: "Raleway", sans-serif;
+  color: #2c2c2a;
+}
+a:visited{
+  color: #2c2c2a;
+}
+label {
+  font-family: "Raleway", sans-serif;
+  color: #2c2c2a;
+}
+article {
+  border-left: 2px solid #ee5037;
+  border-right: 2px solid #ee5037;
+  margin: 2em;
+  padding-left: 1em;
+  text-align: center;
+}
+article h2 {
+  text-align: left;
+}
+/*CLASSES*/
+.navigation {
+  background-color: #a8a39d;
+  width: 20%;
+  padding: 1em;
+}
+.navigation nav ul{
+  list-style-type: none;
+}
+.navigation nav ul li{
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+.navigation nav ul li a{
+  text-decoration: none;
+}
+.wrapper {
+  width: 70%;
+  background-color: #ee723c;
+  padding: .5em;
+}
+.adventure-title {
+  font-family: "Indie Flower", sans-serif;
+}
+.input {
+  margin-bottom: 1em;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+}
+.input-com {
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+.input-lbl {
+  font-size: 1em;
+  color: #fefbe8;
+  margin-right: 1em;
+}
+.btn {
+  background-color: #fff;
+  display: inline-block;;
+  border: none;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5em;
+  color: #a8a39d;
+  width: 100px;
+  height: 45px;
+}
+.table-css {
+  border: 1px solid #595854;
+  border-radius: 10px;
+}
+/*ID*/
+#contact-us {
+  width: 50%;
+  border: 2px dashed #fefbe8;
+  border-radius: 3px;
+  padding: 1em;
+}
